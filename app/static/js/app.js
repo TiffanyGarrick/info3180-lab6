@@ -54,7 +54,7 @@ const NewsList = Vue.component('news-list', {
             <ul class="news__list">
                 <li v-for="article in articles"class="news__item">
                     {{ article.title }}<br>
-                    <img src="{{article.urlToImage}}"><br>
+                    <img :src="article.urlToImage"><br>
                     {{article.description}}
                 </li>
             </ul>
