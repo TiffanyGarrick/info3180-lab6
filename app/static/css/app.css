@@ -5,3 +5,37 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news {
+    /*margin:auto;*/
+    text-align:center;
+}
+.news ul{
+    /*display: inline-block;*/
+    list-style-position: inside;
+}
+
+/**
+.news__list{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+
+.news__list .news__item{
+    flex:1;
+}
+
+.news__list .news__item:nth-child(1) {
+  background: #ccc;
+  order: 1;
+}
+.news__list .news__item:nth-child(2) {
+  background: #eee;
+  order: 2;
+}
+.news__list .news__item:nth-child(3) {
+  background: #eee;
+  order: 3;
+}**/
